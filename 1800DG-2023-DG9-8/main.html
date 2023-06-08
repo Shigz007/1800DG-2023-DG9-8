@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<style>
+			.ok {
+				margin-bottom: 20px;
+			}
+
+			.weather {
+				border: 1px solid black;
+				padding: 10px;
+				width: 200px;
+			}
+
+			.weather h1 {
+				text-align: center;
+			}
+
+			.my-image {
+				width: 100px;
+				height: 100px;
+			}
+
+			.weather {
+				display: inline-block;
+				vertical-align: top;
+				width: 200px;
+			}
+
+			.ok {
+				text-align: center;
+				margin-top: 30px;
+			}
+		</style>
+		<title>My BCIT Project</title>
+		<meta name="comp1800 template" content="My 1800 App">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href=".\bootstrap.min.css">
+		<link rel="stylesheet" href=".\bootstrap.bundle.min.js">
+		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#"><img src="./images/R.jpg" height="36"> Weather forecast</a>
+				<button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+					data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false"
+					aria-label="Toggle navigation">
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarNavDropdown">
+					<ul class="navbar-nav">
+						<li class="nav-item">
+							<a class="nav-link active" aria-current="page" href="main.html">Weather</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="air.html">Air quality</a>
+						</li>
+						<li class="nav-item">
+							<a class="nav-link" href="more.html">More</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+			</div>
+		</nav>
+		<div class="ok">
+			<div class="weather">
+				<h1>6/5</h1>
+				<img class="my-image" src="./images/b2.png">
+				<p>temperature: 23°C</p>
+				<p>weather: clear</p>
+			</div>
+			<div class="weather">
+				<h1>6/6</h1>
+				<img class="my-image" src="./images/b2.png">
+				<p>temperature: 25°C</p>
+				<p>weather: clear</p>
+			</div>
+			<div class="weather">
+				<h1>6/7</h1>
+				<img class="my-image" src="./images/b1.png">
+				<p>temperature: 26°C</p>
+				<p>weather: clear</p>
+			</div>
+			<div class="weather">
+				<h1>6/8</h1>
+				<img class="my-image" src="./images/b2.png">
+				<p>temperature: 23°C</p>
+				<p>weather: clear</p>
+			</div>
+			<div class="weather">
+				<h1>6/9</h1>
+				<img class="my-image" src="./images/b2.png">
+				<p>temperature: 24°C</p>
+				<p>weather: clear</p>
+			</div>
+			<div class="weather">
+				<h1>6/10</h1>
+				<img class="my-image" src="./images/b8.png">
+				<p>temperature: 22°C</p>
+				<p>weather: rain</p>
+			</div>
+		</div>
+		<div class="row row-cols-1 row-cols-md-3 g-4">
+			<div class="col">
+				<div class="card h-100">
+					<img src=".\images\A.gif" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Percentage map of national precipitation anomaly in the past 10 days</h5>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">Last updated 3 mins ago</small>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
+					<img src=".\images\B.gif" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">Actual map of the national temperature in the past 10 days</h5>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">Last updated 3 mins ago</small>
+					</div>
+				</div>
+			</div>
+			<div class="col">
+				<div class="card h-100">
+					<img src=".\images\C.jpg" class="card-img-top" alt="...">
+					<div class="card-body">
+						<h5 class="card-title">National precipitation forecast map</h5>
+					</div>
+					<div class="card-footer">
+						<small class="text-muted">Last updated 3 mins ago</small>
+					</div>
+				</div>
+
+</html>
